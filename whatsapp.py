@@ -4,9 +4,9 @@ import getpass as gt
 
 print("Lets Automate Whatsapp")
 
-pnum=gt.getpass(prompt="Phonenumber: " ,stream=None)
+phonenumber=gt.getpass(prompt="Phone number: " ,stream=None)
 
-msg ="hopw u will be fine"
-
-kt.sendwhatmsg(pnum,msg,20,12)
+msg ="Hello I'm a Whatsapp bot"
+# 20,12 is time format ,it takes 24 hrs time format
+kt.sendwhatmsg(phonenumber,msg,20,12)
 
