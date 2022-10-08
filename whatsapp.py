@@ -2,7 +2,7 @@ import pywhatkit as kt
 import getpass as gt
 
 
-print("Lets Automate Whatsapp1")
+print("Lets Automate Whatsapp for messages.")
 
 phonenumber=gt.getpass(prompt="Phone number: " ,stream=None)
 
